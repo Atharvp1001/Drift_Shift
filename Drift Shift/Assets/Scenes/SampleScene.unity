@@ -947,6 +947,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2038104249}
+  - {fileID: 1431763006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878327782
@@ -1303,9 +1304,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431763005}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.01, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.99, z: 0}
+  m_LocalScale: {x: 0.1, y: 2, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 453779261}
@@ -1320,7 +1321,7 @@ Transform:
   - {fileID: 1625122304}
   - {fileID: 1634416995}
   - {fileID: 60730941}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 512960814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1431763007
 MonoBehaviour:
@@ -1334,11 +1335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134002b729b6ee2468ee6bf00d55b430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 80
+  MoveSpeed: 100
   SteerAngle: 20
-  Drag: 0.98
-  MaxSpeed: 70
-  Traction: 0.5
+  Drag: 0.99
+  MaxSpeed: 75
+  Traction: 1
 --- !u!1 &1449201391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2246,4 +2247,3 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 512960814}
-  - {fileID: 1431763006}

@@ -6,15 +6,15 @@ public class CarMovement : MonoBehaviour
     private Vector3 MoveForce;
 
     [Header("Movement")]
-    [SerializeField]private float MoveSpeed = 100f;
-    [SerializeField]private float SteerAngle = 20f;
+    [SerializeField]private float MoveSpeed = 110f;
+    [SerializeField]private float SteerAngle = 10f;
 
     [Header("Drag")]
     [SerializeField]private float Drag = 0.99f;
-    [SerializeField]private float MaxSpeed = 75f;
+    [SerializeField]private float MaxSpeed = 100f;
 
     [Header("Traction")]
-    [SerializeField]private float Traction = 1;
+    [SerializeField]private float Traction = 2;
 
     // Update is called once per frame
     void Update()

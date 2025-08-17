@@ -35,3 +35,4 @@ public class CarMovement : MonoBehaviour
         MoveForce = Vector3.Lerp(MoveForce.normalized, transform.forward, Traction * Time.deltaTime) * MoveForce.magnitude;
     }
 }
+  
